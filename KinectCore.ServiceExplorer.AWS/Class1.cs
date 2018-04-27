@@ -4,7 +4,7 @@ using System.Text;
 
 namespace KinectCore.ServiceExplorer
 {
-    class Class1
+     class Class1
     {
     }
 }
