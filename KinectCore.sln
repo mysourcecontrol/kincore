@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2011
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectCore", "KinectCore\KinectCore.csproj", "{A7E23649-C4E2-412A-804F-D44A18804195}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectCore.ServiceExplorer.AWS", "KinectCore.ServiceExplorer.AWS\KinectCore.ServiceExplorer.AWS.csproj", "{7377A105-5F88-42E3-B209-5E5FD139F2B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{6DE9BB15-2E9D-410C-8871-258A15B38153}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KSE", "KSE", "{5C9AE4F1-4F0F-4FEB-9D35-06926B8B0F67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectCore.ServiceExplorer.Common", "KinectCore.ServiceExplorer.Common\KinectCore.ServiceExplorer.Common.csproj", "{0433FF30-087C-4DF6-8B7F-81BCEEDE9E5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectCore.ServiceExplorer.Azure", "KinectCore.ServiceExplorer.Azure\KinectCore.ServiceExplorer.Azure.csproj", "{36C11CC0-4BBB-4CCC-96BE-C08E65C1D3C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7E23649-C4E2-412A-804F-D44A18804195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E23649-C4E2-412A-804F-D44A18804195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E23649-C4E2-412A-804F-D44A18804195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E23649-C4E2-412A-804F-D44A18804195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7377A105-5F88-42E3-B209-5E5FD139F2B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7377A105-5F88-42E3-B209-5E5FD139F2B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7377A105-5F88-42E3-B209-5E5FD139F2B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7377A105-5F88-42E3-B209-5E5FD139F2B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DE9BB15-2E9D-410C-8871-258A15B38153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE9BB15-2E9D-410C-8871-258A15B38153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE9BB15-2E9D-410C-8871-258A15B38153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE9BB15-2E9D-410C-8871-258A15B38153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0433FF30-087C-4DF6-8B7F-81BCEEDE9E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0433FF30-087C-4DF6-8B7F-81BCEEDE9E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0433FF30-087C-4DF6-8B7F-81BCEEDE9E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0433FF30-087C-4DF6-8B7F-81BCEEDE9E5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36C11CC0-4BBB-4CCC-96BE-C08E65C1D3C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C11CC0-4BBB-4CCC-96BE-C08E65C1D3C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C11CC0-4BBB-4CCC-96BE-C08E65C1D3C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C11CC0-4BBB-4CCC-96BE-C08E65C1D3C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7377A105-5F88-42E3-B209-5E5FD139F2B5} = {5C9AE4F1-4F0F-4FEB-9D35-06926B8B0F67}
+		{0433FF30-087C-4DF6-8B7F-81BCEEDE9E5D} = {5C9AE4F1-4F0F-4FEB-9D35-06926B8B0F67}
+		{36C11CC0-4BBB-4CCC-96BE-C08E65C1D3C4} = {5C9AE4F1-4F0F-4FEB-9D35-06926B8B0F67}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {900ABC62-3F93-4DE1-9062-ED035A17BD05}
+	EndGlobalSection
+EndGlobal
