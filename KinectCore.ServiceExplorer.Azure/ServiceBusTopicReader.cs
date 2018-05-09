@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace KinectCore.ServiceExplorer
+namespace KinectCore.ServiceExplorer.Azure
 {
-     class Class1
+    public class ServiceBusTopicReader
     {
     }
 }

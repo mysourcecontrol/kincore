@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace KinectCore.ServiceExplorer.Azure
+namespace KinectCore.Security.Identity
 {
     public class Class1
     {

@@ -2,8 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Company>Kinect Consulting</Company>
-    <Authors>Sridhar Kammadanam</Authors>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,8 +10,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Core\Shared.csproj" />
-    <ProjectReference Include="..\KinectCore.Azure.Queue\KinectCore.Queue.Azure.csproj" />
-    <ProjectReference Include="..\KinectCore.ServiceExplorer.Common\KinectCore.ServiceExplorer.Core.csproj" />
   </ItemGroup>
 
 </Project>

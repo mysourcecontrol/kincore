@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace KinectCore.ServiceExplorer
+namespace KinectCore.Queue.AWS
 {
     public class SqsQueueWriter : IDisposable
     {

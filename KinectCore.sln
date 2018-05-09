@@ -3,17 +3,41 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27428.2011
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectCore", "KinectCore\KinectCore.csproj", "{A7E23649-C4E2-412A-804F-D44A18804195}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KinectCore.Web", "KinectCore\KinectCore.Web.csproj", "{A7E23649-C4E2-412A-804F-D44A18804195}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectCore.ServiceExplorer.AWS", "KinectCore.ServiceExplorer.AWS\KinectCore.ServiceExplorer.AWS.csproj", "{7377A105-5F88-42E3-B209-5E5FD139F2B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KinectCore.ServiceExplorer.AWS", "KinectCore.ServiceExplorer.AWS\KinectCore.ServiceExplorer.AWS.csproj", "{7377A105-5F88-42E3-B209-5E5FD139F2B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{6DE9BB15-2E9D-410C-8871-258A15B38153}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Core\Shared.csproj", "{6DE9BB15-2E9D-410C-8871-258A15B38153}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KSE", "KSE", "{5C9AE4F1-4F0F-4FEB-9D35-06926B8B0F67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectCore.ServiceExplorer.Common", "KinectCore.ServiceExplorer.Common\KinectCore.ServiceExplorer.Common.csproj", "{0433FF30-087C-4DF6-8B7F-81BCEEDE9E5D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KinectCore.ServiceExplorer.Core", "KinectCore.ServiceExplorer.Common\KinectCore.ServiceExplorer.Core.csproj", "{0433FF30-087C-4DF6-8B7F-81BCEEDE9E5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinectCore.ServiceExplorer.Azure", "KinectCore.ServiceExplorer.Azure\KinectCore.ServiceExplorer.Azure.csproj", "{36C11CC0-4BBB-4CCC-96BE-C08E65C1D3C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KinectCore.ServiceExplorer.Azure", "KinectCore.ServiceExplorer.Azure\KinectCore.ServiceExplorer.Azure.csproj", "{36C11CC0-4BBB-4CCC-96BE-C08E65C1D3C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Monitoring", "Monitoring", "{A465414E-A1CF-47C8-9264-1D20E5144C57}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KinectCore.Monitoring.NewRelic", "KinectCore.Monitoring.NewRelic\KinectCore.Monitoring.NewRelic.csproj", "{61816E1E-EB39-420C-9D1E-1DA55122F604}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Queue", "Queue", "{9EAE0118-6D65-4E89-A24E-2F6C7E02D5C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KinectCore.Queue.AWS", "KinectCore.AWS.Queue\KinectCore.Queue.AWS.csproj", "{D94067F8-F49C-4B42-8FA0-251B89E0F95E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KinectCore.Queue.Azure", "KinectCore.Azure.Queue\KinectCore.Queue.Azure.csproj", "{E20C3A73-E943-4760-8EE4-F5A8E60BFF37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Storage", "Storage", "{1B1BF711-2541-4D63-93CE-4368CF210E39}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KinectCore.Storage.CosmosDB", "KinectCore.Storage.CosmosDB\KinectCore.Storage.CosmosDB.csproj", "{121B7D2E-D7A1-495C-9B02-F400342EE65E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KinectCore.Http.Web", "KinectCore.HttpClient\KinectCore.Http.Web.csproj", "{D419D9D8-30B8-4FAB-B67F-0353FD073788}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Security", "Security", "{F7E15BD7-1DC6-4F94-A540-F44496CA9D65}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KinectCore.Security.Identity", "KinectCore.Security.Identity\KinectCore.Security.Identity.csproj", "{C88E6BD0-7A19-42F3-A93B-9E1AA59FE21A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KinectCore.Patterns.Resilience", "KinectCore.Web.Retry\KinectCore.Patterns.Resilience.csproj", "{D85FFCC3-1DCE-4FD5-8C26-70335BAD464E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KinectCore.Patterns.Logging", "KinectCore.Patterns.Logging\KinectCore.Patterns.Logging.csproj", "{B4BE898D-CC15-4B01-9B6A-6361601778BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +65,38 @@ Global
 		{36C11CC0-4BBB-4CCC-96BE-C08E65C1D3C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36C11CC0-4BBB-4CCC-96BE-C08E65C1D3C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36C11CC0-4BBB-4CCC-96BE-C08E65C1D3C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61816E1E-EB39-420C-9D1E-1DA55122F604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61816E1E-EB39-420C-9D1E-1DA55122F604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61816E1E-EB39-420C-9D1E-1DA55122F604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61816E1E-EB39-420C-9D1E-1DA55122F604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D94067F8-F49C-4B42-8FA0-251B89E0F95E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D94067F8-F49C-4B42-8FA0-251B89E0F95E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D94067F8-F49C-4B42-8FA0-251B89E0F95E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D94067F8-F49C-4B42-8FA0-251B89E0F95E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E20C3A73-E943-4760-8EE4-F5A8E60BFF37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E20C3A73-E943-4760-8EE4-F5A8E60BFF37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E20C3A73-E943-4760-8EE4-F5A8E60BFF37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E20C3A73-E943-4760-8EE4-F5A8E60BFF37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{121B7D2E-D7A1-495C-9B02-F400342EE65E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{121B7D2E-D7A1-495C-9B02-F400342EE65E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{121B7D2E-D7A1-495C-9B02-F400342EE65E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{121B7D2E-D7A1-495C-9B02-F400342EE65E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D419D9D8-30B8-4FAB-B67F-0353FD073788}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D419D9D8-30B8-4FAB-B67F-0353FD073788}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D419D9D8-30B8-4FAB-B67F-0353FD073788}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D419D9D8-30B8-4FAB-B67F-0353FD073788}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C88E6BD0-7A19-42F3-A93B-9E1AA59FE21A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C88E6BD0-7A19-42F3-A93B-9E1AA59FE21A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C88E6BD0-7A19-42F3-A93B-9E1AA59FE21A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C88E6BD0-7A19-42F3-A93B-9E1AA59FE21A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D85FFCC3-1DCE-4FD5-8C26-70335BAD464E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D85FFCC3-1DCE-4FD5-8C26-70335BAD464E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D85FFCC3-1DCE-4FD5-8C26-70335BAD464E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D85FFCC3-1DCE-4FD5-8C26-70335BAD464E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4BE898D-CC15-4B01-9B6A-6361601778BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4BE898D-CC15-4B01-9B6A-6361601778BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4BE898D-CC15-4B01-9B6A-6361601778BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4BE898D-CC15-4B01-9B6A-6361601778BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +105,11 @@ Global
 		{7377A105-5F88-42E3-B209-5E5FD139F2B5} = {5C9AE4F1-4F0F-4FEB-9D35-06926B8B0F67}
 		{0433FF30-087C-4DF6-8B7F-81BCEEDE9E5D} = {5C9AE4F1-4F0F-4FEB-9D35-06926B8B0F67}
 		{36C11CC0-4BBB-4CCC-96BE-C08E65C1D3C4} = {5C9AE4F1-4F0F-4FEB-9D35-06926B8B0F67}
+		{61816E1E-EB39-420C-9D1E-1DA55122F604} = {A465414E-A1CF-47C8-9264-1D20E5144C57}
+		{D94067F8-F49C-4B42-8FA0-251B89E0F95E} = {9EAE0118-6D65-4E89-A24E-2F6C7E02D5C9}
+		{E20C3A73-E943-4760-8EE4-F5A8E60BFF37} = {9EAE0118-6D65-4E89-A24E-2F6C7E02D5C9}
+		{121B7D2E-D7A1-495C-9B02-F400342EE65E} = {1B1BF711-2541-4D63-93CE-4368CF210E39}
+		{C88E6BD0-7A19-42F3-A93B-9E1AA59FE21A} = {F7E15BD7-1DC6-4F94-A540-F44496CA9D65}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {900ABC62-3F93-4DE1-9062-ED035A17BD05}

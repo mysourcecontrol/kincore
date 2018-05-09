@@ -4,6 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <Company>Kinect Consulting</Company>
     <Authors>Sridhar Kammadanam</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,11 +12,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Queue\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Core\Core.csproj" />
+    <ProjectReference Include="..\Core\Shared.csproj" />
+    <ProjectReference Include="..\KinectCore.AWS.Queue\KinectCore.Queue.AWS.csproj" />
+    <ProjectReference Include="..\KinectCore.ServiceExplorer.Common\KinectCore.ServiceExplorer.Core.csproj" />
   </ItemGroup>
 
 </Project>

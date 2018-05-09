@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace KinectCore.ServiceExplorer.Common
+namespace KinectCore.Storage.CosmosDB
 {
     public class Class1
     {
